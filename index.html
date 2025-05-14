@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSphere | Modern Web Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">TechSphere</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 class="animate-text">Welcome to Future Web</h1>
+            <p>Experience cutting-edge web solutions</p>
+            <button class="cta-btn">Get Started</button>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="grid-container">
+                <div class="feature-card">
+                    <h3>Responsive Design</h3>
+                    <p>Perfect display on all devices</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Web Animation</h3>
+                    <p>Engaging interactive elements</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Secure Storage</h3>
+                    <p>LocalStorage integration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery -->
+    <section id="gallery" class="gallery">
+        <h2>Project Gallery</h2>
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="https://source.unsplash.com/random/800x600?tech,1" alt="Tech 1">
+            </div>
+            <div class="slide fade">
+                <img src="https://source.unsplash.com/random/800x600?tech,2" alt="Tech 2">
+            </div>
+            <a class="prev">❮</a>
+            <a class="next">❯</a>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Name" required>
+                    <div class="error"></div>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email" required>
+                    <div class="error"></div>
+                </div>
+                <button type="submit" class="cta-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
